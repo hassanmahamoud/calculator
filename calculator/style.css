@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    height: 445px;
+    width: 280px;
+    background: #756971;
+    border-radius: 10px;
+}
+.screen{
+    background: rgba(255, 255, 255, 0.287);
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 4px 5px rgba(0, 0, 0, 0.358);
+}
+input{
+    background: rgb(74, 109, 88);
+    width: 240px;
+    height: 60px;
+    border: 2px solid #372A25;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    outline: none;
+    text-align: end;
+    color:  #372A25;
+}
+.buttons{
+    background: #615257;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 335px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.button{
+    background: #615257;
+    height: 50px;
+    width: 50px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: -3px 3px 4px rgba(174, 172, 172, 0.25), inset 0px 0px 6px 4px rgba(19, 19, 19, 0.241);
+    font-family: sans-serif;
+    font-size: 33px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+
+.bun{
+    background: rgb(255, 85, 0);
+    height: 50px;
+    width: 50px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 4px 5px rgba(0, 0, 0, 0.358);
+    font-family: sans-serif;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.butn{
+    background: rgb(255, 85, 0);
+    height: 50px;
+    width: 50px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 4px 5px rgba(0, 0, 0, 0.358);
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
